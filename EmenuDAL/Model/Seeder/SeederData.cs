@@ -16,7 +16,7 @@ namespace EmenuDAL.Model.Seeder
             _context=contect;
         }
 
-        public void Seed()
+        public void Seed() 
         {
             if(!_context.Attributes.Any())
             {
